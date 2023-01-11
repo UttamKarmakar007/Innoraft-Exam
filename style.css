@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Space+Grotesk:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+
+.topNavbar{
+    background-color: #032a31;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.leftContent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightContent{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content p{
+    margin-left: 11px;
+    color: white;
+}
+
+.content img{
+    margin-left: 10px;
+
+}
+
+.secondnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.leftSecondNavbar{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.rightSecondNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.subContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.subContent p{
+    margin: 0;
+}
+
+.thirdNavbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #813d16;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.links{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.links ul li{
+    display: inline-block;
+    margin-right: 20px;
+} 
+
+
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.seachBox{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    
+    
+}
+
+.seachBox input{
+    border: none;
+    padding: 13px;
+    background-color: rgba(250, 250, 250, 0.226);
+        
+}
+
+.seachBox input::placeholder{
+    color: white;
+    font-size: 0.9rem;
+    font-style: bold;
+}
+
+
+
+.searchIcon{
+    float: right;
+    padding: 9.5px;
+    background-color: rgba(250, 250, 250, 0.226);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.753)), url(./Images/banner.jpg) no-repeat;
+    z-index: 0;
+}
+
+h1{
+    margin: 0;
+    color: white  ;
+    font-size: xxx-large;
+    font-style: bold;
+}
+
+.cotentArea {
+    padding-left: 150px;
+    width: 600px;
+    top: 50%;
+    position:absolute;
+    margin-left: 10px;
+}
+
+.mainContent p{
+    color: white;
+    width: 800px;
+    height: 100px;
+    z-index: 1;
+    font-style: bold;
+    font-size: large;
+}
+
+#firstButton{
+    background-color: white;
+    padding: 15px;
+}
+
+.buttons{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: #b14d12;
+}
+
+.buttons img{
+    padding: 15px;
+    background-color: #b14d12;
+    border-radius: 50%;
+}
+
+#howwetalk{
+    color: white;
+    font-size: large;
+}
+
+.footer{
+    background-color: #032a31;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 40px;
+}
+
+.footerContent p{
+    color: white;
+    margin-left: 10px;
+}
+
+#divider{
+    display: inline-block;
+    border-right: 1px solid gray;
+    height: 100px;
+}
+
+#top-divider{
+    display: inline-block;
+    border-right: 1px solid gray;
+    height: 50px;
+    margin-left: 10px;
+}
+
